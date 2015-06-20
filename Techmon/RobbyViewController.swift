@@ -43,6 +43,15 @@ class RobbyViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(true)
+        util.playBGM("lobby")
+    }
+    
+    override func viewDidDisappear(animated: Bool) {
+        util.stopBGM()
+    }
+    
     func cureStamina(){
         staminaTimer = NSTimer.scheduledTimerWithTimeInterval(1.0, target: self, selector: "updateStaminaValue", userInfo: nil, repeats: true)
         staminaTimer.fire()

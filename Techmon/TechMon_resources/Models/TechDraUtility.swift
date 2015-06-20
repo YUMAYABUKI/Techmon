@@ -76,7 +76,7 @@ class TechDraUtility: NSObject, AVAudioPlayerDelegate {
     func playBGM(fileName: String) {
 
         let soundFilePath : NSString = NSBundle.mainBundle().pathForResource(fileName, ofType: "mp3")!
-        let fileURL : NSURL = NSURL(fileURLWithPath: soundFilePath)!
+        let fileURL : NSURL = NSURL(fileURLWithPath: soundFilePath as String)!
         /*
         //TODO: fix unwrapping error
         var error: NSError? = nil

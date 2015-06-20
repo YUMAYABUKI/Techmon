@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>12983CB1-07B2-4924-925D-2D86A20352F9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Techmon</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>23A9E4CBF0F65A4D7990836A60C4598CD9A5C30D</key>
+		<string>https://github.com/YUMAYABUKI/Techmon.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Techmon.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>23A9E4CBF0F65A4D7990836A60C4598CD9A5C30D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/YUMAYABUKI/Techmon.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>23A9E4CBF0F65A4D7990836A60C4598CD9A5C30D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>23A9E4CBF0F65A4D7990836A60C4598CD9A5C30D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Techmon</string>
+		</dict>
+	</array>
+</dict>
+</plist>

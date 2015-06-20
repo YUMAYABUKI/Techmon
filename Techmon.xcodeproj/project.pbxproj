@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C03660121B350E0E006FBC65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C03660111B350E0E006FBC65 /* Main.storyboard */; };
 		C0E5BCBD1B33166E0087A68A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E5BCBC1B33166E0087A68A /* AppDelegate.swift */; };
 		C0E5BCBF1B33166E0087A68A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E5BCBE1B33166E0087A68A /* ViewController.swift */; };
-		C0E5BCC21B33166E0087A68A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0E5BCC01B33166E0087A68A /* Main.storyboard */; };
 		C0E5BCC41B33166E0087A68A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0E5BCC31B33166E0087A68A /* Images.xcassets */; };
 		C0E5BCC71B33166E0087A68A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0E5BCC51B33166E0087A68A /* LaunchScreen.xib */; };
 		C0E5BCD31B33166E0087A68A /* TechmonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E5BCD21B33166E0087A68A /* TechmonTests.swift */; };
@@ -46,11 +46,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C03660111B350E0E006FBC65 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		C0E5BCB71B33166E0087A68A /* Techmon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Techmon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0E5BCBB1B33166E0087A68A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C0E5BCBC1B33166E0087A68A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0E5BCBE1B33166E0087A68A /* ViewController.swift */ = {isa = PBXFileReference; indentWidth = 5; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C0E5BCC11B33166E0087A68A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C0E5BCC31B33166E0087A68A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C0E5BCC61B33166E0087A68A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C0E5BCCC1B33166E0087A68A /* TechmonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TechmonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,7 +122,7 @@
 				C0E5BCBC1B33166E0087A68A /* AppDelegate.swift */,
 				C0E5BCBE1B33166E0087A68A /* ViewController.swift */,
 				C0E5BD061B331C400087A68A /* RobbyViewController.swift */,
-				C0E5BCC01B33166E0087A68A /* Main.storyboard */,
+				C03660111B350E0E006FBC65 /* Main.storyboard */,
 				C0E5BCDC1B3317610087A68A /* TechMon_resources */,
 				C0E5BCC31B33166E0087A68A /* Images.xcassets */,
 				C0E5BCC51B33166E0087A68A /* LaunchScreen.xib */,
@@ -303,7 +303,6 @@
 			files = (
 				C0E5BCFD1B3317610087A68A /* waku.png in Resources */,
 				C0E5BD041B3317610087A68A /* SE_fanfare.mp3 in Resources */,
-				C0E5BCC21B33166E0087A68A /* Main.storyboard in Resources */,
 				C0E5BCFB1B3317610087A68A /* gold_button.png in Resources */,
 				C0E5BD011B3317610087A68A /* BGM_battle001.mp3 in Resources */,
 				C0E5BD021B3317610087A68A /* lobby.mp3 in Resources */,
@@ -317,6 +316,7 @@
 				C0E5BCC41B33166E0087A68A /* Images.xcassets in Resources */,
 				C0E5BCF91B3317610087A68A /* bgimage.jpg in Resources */,
 				C0E5BCF51B3317610087A68A /* Default-667h@2x.png in Resources */,
+				C03660121B350E0E006FBC65 /* Main.storyboard in Resources */,
 				C0E5BCFA1B3317610087A68A /* falcon.png in Resources */,
 				C0E5BCF61B3317610087A68A /* Default-736h@3x.png in Resources */,
 			);
@@ -364,14 +364,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C0E5BCC01B33166E0087A68A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C0E5BCC11B33166E0087A68A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C0E5BCC51B33166E0087A68A /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -537,6 +529,7 @@
 				C0E5BCD81B33166E0087A68A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C0E5BCD91B33166E0087A68A /* Build configuration list for PBXNativeTarget "TechmonTests" */ = {
 			isa = XCConfigurationList;
@@ -545,6 +538,7 @@
 				C0E5BCDB1B33166E0087A68A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
